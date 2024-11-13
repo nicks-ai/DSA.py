@@ -7,7 +7,7 @@ def quick_sort(arr):
     right = [ x for x in arr if x > pivot]
     return quick_sort(left) + middle + quick_sort(right)
 
-arr = [100, -1, 388, 483, 8, 10, 90, 7427]
+arr = [100, -1, 388, 483, 8, 724, 10, 90, 7427]
 print(quick_sort(arr))
 
 
